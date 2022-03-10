@@ -1,5 +1,5 @@
 # ejercicios-ordenar
-Para epresentar mi tarea he realizado un repositorio en github, dejo aquí la dirección URL: 
+Para epresentar mi tarea he realizado un repositorio en github, dejo aquí la dirección URL: https://github.com/acasasaez/ejercicios-ordenar.git
 
 
 Ejercicio 1: Consistía en realizar un algoritmo que nos permitiese ordenar los elementos de una lista por dicotomía e insercción.
