@@ -24,7 +24,7 @@ Ejercicio3:
 
 Código: 
 
-´´´Ejercicio 1:
+```Ejercicio 1:
 Algoritmo ordenar: 
 Entrada: 
     t:LISTA #Lista ennumerada
