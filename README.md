@@ -1,4 +1,7 @@
 # ejercicios-ordenar
+Para epresentar mi tarea he realizado un repositorio en github, dejo aquí la dirección URL: 
+
+
 Ejercicio 1: Consistía en realizar un algoritmo que nos permitiese ordenar los elementos de una lista por dicotomía e insercción.
 
 
@@ -24,7 +27,8 @@ Ejercicio3:
 
 Código: 
 
-```Ejercicio 1:
+```
+Ejercicio 1:
 Algoritmo ordenar: 
 Entrada: 
     t:LISTA #Lista ennumerada
