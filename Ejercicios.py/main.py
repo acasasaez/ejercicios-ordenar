@@ -1,7 +1,9 @@
 import prueba
-print("hola")
-prueba.hola ()
-#import ordenacon_por_dicotomia
-#import ordenar_por_topologia
-#lo dejo a modo de comentario porque como ya expliqué simplemente lo he puesto por cuestión imbólica, pues al no haber código no se ejecutará nada por eso lo escribo como comentario
+import ordenacon_por_dicotomia
 import intento
+
+prueba.hola ()
+
+print(ordenacon_por_dicotomia.ordenar_dicotomia([2,8,4,7,3,1]))
+
+print (intento.intercambio_segmento([18,20,12,1,3,4,6,7,8],2,7))
