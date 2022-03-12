@@ -1,12 +1,17 @@
+def ordenar_dicotomia(lista):
+    lista_ordenada = []
+    while len(lista)>0:
+        min= lista[0]
+        for i in range (len(lista)):
+            if lista [i]< min:
+                a=lista[i]
+                min = a
+        lista_ordenada.append(min)
+        lista.remove(min)
+                    
+    return lista_ordenada
 
-def ordenar(a):
-    nuevalista = [a[0]]
-    for i in range (len(a)-1):
-        if a[i] >nuevalista[0]:
-            nuevalista.append(a[i])
-        else:
-            nuevalista[i+1] = nuevalista[i]
-            nuevalista[0]=a[i]
-        print (nuevalista)
+if __name__ == "__main__":
+    ordenar_dicotomia()
 
-ordenar ([1,5,8,3,7])
+    
