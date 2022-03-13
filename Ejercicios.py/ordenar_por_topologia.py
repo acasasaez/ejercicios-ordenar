@@ -24,4 +24,3 @@ Mientras Lista_1 no esté vacía:
     si no 
         devolver Lista_4 
 #Como resultado obtenemos una lista que nos ofrece 1 de las posibles soluciones para ordenar nuestra lista de tareas.
-l
