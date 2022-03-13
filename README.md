@@ -2,26 +2,31 @@
 Para epresentar mi tarea he realizado un repositorio en github, dejo aquí la dirección URL: https://github.com/acasasaez/ejercicios-ordenar.git
 
 
-Ejercicio 1: Consistía en realizar un algoritmo que nos permitiese ordenar los elementos de una lista por dicotomía e insercción.
+Ejercicio 1: Consistía en realizar un algoritmo que nos permitiese ordenar los elementos de una lista por dicotomía e insercción. De modo que nuestra lista se divide en 2; en una vamos añadiendo los elementos por orden y la otra va disminuyendo a medida que pasamos los mínimos de una lista a otra.
 
 
 Ejercicio 2: Consistía en elaborar un algoritmo que nos permitiese ordenar n tareas.
-Para este ejercicio hemos tomado una matriz en la que aparecieran los n números de las tareas y una vez comparados los números por filas y columnas devuelve mensajes que nos permiten saber el orden por filas y por columnas y con esto podemos saber el orden de las tareas.
+Este ejercicio lo he realizado en pseudocódigo porque me estaba dando error al pasarlo a código.
 
 
-Ejercicio 3: Consistía en realizarun algoritmo que nols permitiese ordenar un segmento determinado de una lista y que guardase el máximo del segmento.
+Ejercicio 3: Consistía en realizarun algoritmo que nos permitiese ordenar un segmento determinado de una lista y que guardase el máximo del segmento.
 
 Diagramas que representan nuestros programas
 
 Ejercicio 1:
+![ordenar por dicotomia de birn](https://user-images.githubusercontent.com/91721826/158067681-3ae836f1-0ec5-4c62-af16-8352417f4028.jpg)
 
 
 
 Ejercicio 2:
 
+![diagraba topologia bien](https://user-images.githubusercontent.com/91721826/158067694-d4652356-cc77-4aee-82b3-334a501dcdb3.jpg)
+
 
 
 Ejercicio3: 
+
+![último ejercicio segmento bien](https://user-images.githubusercontent.com/91721826/158069161-46f16439-733e-4876-9871-253ee7fc25e9.jpg)
 
 
 Código: 
@@ -46,19 +51,23 @@ if __name__ == "__main__":
 
     
 Ejercicio 2: 
-Algoritmo ordenar_topología:
+#Para esta tarea emplearé de nuevo el pseudocódigo:
+from re import A
+
+
+Algoritmo ordenar_topologia:
 #EN primer lugar describimos las variables con las que trabajaremos
 Lista_1: LISTA #Lista que contiene las n tareas a realizar
 Lista_2:LISTA  #Lista a los que pasarán los elementos que no tienen precedente
 Lista_3:LISTA #Lista de restricciones que nos indica cómo ordenar determinados elementos , viene dada como una lista de tuplas
-Lista_4:LISTA #Lista ordenada
+
 
 #Por otro lado describimos los pasos a seguir por el programa para poder ordenar, topológicamente, nuestra lista de n tareas
 Mientras Lista_1 no esté vacía:
     Añadir los elementos sin precedente a Lista_2
-    Eliminar de Lista_1 los eeemntos añadidos a Lista_2
+    Eliminar de Lista_1 los elemntos añadidos a Lista_2
     Eliminar de Lista_3 los elementos ((x,y)) cuya x se encuentre en Lista_2 
-    Añadir los elementos de lista_2 a Lista_4 
+    
 
     Si 
     existe (x,y) y (x1,y1) tales que x==y1 y y==x1:
@@ -68,7 +77,8 @@ Mientras Lista_1 no esté vacía:
     si no 
         devolver Lista_4 
 #Como resultado obtenemos una lista que nos ofrece 1 de las posibles soluciones para ordenar nuestra lista de tareas.
-
+# if __name__ == "__main__":
+        #ordrnar_topologia()
 
 
 Ejercicio 3:
