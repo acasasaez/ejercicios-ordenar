@@ -14,10 +14,12 @@ Ejercicio 3: Consistía en realizarun algoritmo que nols permitiese ordenar un s
 Diagramas que representan nuestros programas
 
 Ejercicio 1:
+![ordenar por dicotomia de birn](https://user-images.githubusercontent.com/91721826/158067681-3ae836f1-0ec5-4c62-af16-8352417f4028.jpg)
 
 
 
 Ejercicio 2:
+![diagraba topologia bien](https://user-images.githubusercontent.com/91721826/158067694-d4652356-cc77-4aee-82b3-334a501dcdb3.jpg)
 
 
 
