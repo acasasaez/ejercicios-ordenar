@@ -15,15 +15,14 @@ Diagramas que representan nuestros programas
 
 Ejercicio 1:
 
-![ordenac_dicotomia](https://user-images.githubusercontent.com/91721826/157718454-b86b604d-fb49-4fb5-82a5-5f82d93ac4d1.jpg)
+
 
 Ejercicio 2:
 
-![ord_top](https://user-images.githubusercontent.com/91721826/157718464-8cee2a19-a76f-4fdd-9e6f-2796f2828937.jpg)
+
 
 Ejercicio3: 
 
-![ejespecif](https://user-images.githubusercontent.com/91721826/157718485-10db580e-a14f-4543-a633-3a5c8759a123.jpg)
 
 Código: 
 
