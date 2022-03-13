@@ -14,9 +14,10 @@ def intercambio_segmento(lista,e,b):
                 segmento [i] =a
                 intercambios = True
     lista[e:b]=segmento
-    return lista
+    m= lista[b-1]
+    
+    return lista,m
+print (intercambio_segmento([18,20,12,1,3,4,6,7,8],2,7))
 
-if __name__ == "__main__":
-    intercambio_segmento()
 
 
