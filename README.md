@@ -2,14 +2,14 @@
 Para epresentar mi tarea he realizado un repositorio en github, dejo aquí la dirección URL: https://github.com/acasasaez/ejercicios-ordenar.git
 
 
-Ejercicio 1: Consistía en realizar un algoritmo que nos permitiese ordenar los elementos de una lista por dicotomía e insercción.
+Ejercicio 1: Consistía en realizar un algoritmo que nos permitiese ordenar los elementos de una lista por dicotomía e insercción. De modo que nuestra lista se divide en 2; en una vamos añadiendo los elementos por orden y la otra va disminuyendo a medida que pasamos los mínimos de una lista a otra.
 
 
 Ejercicio 2: Consistía en elaborar un algoritmo que nos permitiese ordenar n tareas.
-Para este ejercicio hemos tomado una matriz en la que aparecieran los n números de las tareas y una vez comparados los números por filas y columnas devuelve mensajes que nos permiten saber el orden por filas y por columnas y con esto podemos saber el orden de las tareas.
+Este ejercicio lo he realizado en pseudocódigo porque me estaba dando error al pasarlo a código.
 
 
-Ejercicio 3: Consistía en realizarun algoritmo que nols permitiese ordenar un segmento determinado de una lista y que guardase el máximo del segmento.
+Ejercicio 3: Consistía en realizarun algoritmo que nos permitiese ordenar un segmento determinado de una lista y que guardase el máximo del segmento.
 
 Diagramas que representan nuestros programas
 
@@ -25,6 +25,8 @@ Ejercicio 2:
 
 
 Ejercicio3: 
+
+![último ejercicio segmento bien](https://user-images.githubusercontent.com/91721826/158069161-46f16439-733e-4876-9871-253ee7fc25e9.jpg)
 
 
 Código: 
