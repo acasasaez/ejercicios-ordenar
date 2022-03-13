@@ -19,6 +19,7 @@ Ejercicio 1:
 
 
 Ejercicio 2:
+
 ![diagraba topologia bien](https://user-images.githubusercontent.com/91721826/158067694-d4652356-cc77-4aee-82b3-334a501dcdb3.jpg)
 
 
