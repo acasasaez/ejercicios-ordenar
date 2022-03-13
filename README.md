@@ -47,30 +47,28 @@ if __name__ == "__main__":
 
     
 Ejercicio 2: 
-Algoritmo ordenacion_topologica:
-Entrada: 
-    t: MATRIZ 
-Precondicion:
-    t != NULO 
-Realizacion: 
-    Para i en rango contar(t)-1: 
-            para j en rango contar (t)-1:         #Nuestro código debe comparar cada elemento con los elementos adyacentes
-               si t[i]< t[i+1]:                   #Una vez comparados los elementos nos indica cuál va antes de de las 2                                                
-                    imprimir tarea i por fila va antes que tarea i+1 por fila
-                si no:
-                    imprimir tarea i+1 por fila va antes que tarea i por fila
-                fin si 
+Algoritmo ordenar_topología:
+#EN primer lugar describimos las variables con las que trabajaremos
+Lista_1: LISTA #Lista que contiene las n tareas a realizar
+Lista_2:LISTA  #Lista a los que pasarán los elementos que no tienen precedente
+Lista_3:LISTA #Lista de restricciones que nos indica cómo ordenar determinados elementos , viene dada como una lista de tuplas
+Lista_4:LISTA #Lista ordenada
 
-                si t[i][j]< t[i][j+1]:
-                    imprimir  tarea j por columna va antes que j por columna
-                si no: 
-                    imprimir tarea j+1 por columna va antes quej por columna 
-                fin si 
-Postcondicion:
-Resultado #Como resultado la función nos imprime una serie de frases lógicas que nos permite tomar las n tareas y ordenarlas  
-#Teniendo en cuenta que el ejercicio no está hecho a código no podremos ejecurtarlo sin embargo al final de nuestra función deberíamos acabar con un "if __name__ ==__main__:
-#                                                                                                                                                               ordenar)" Así
-#igual que en el ejercicio prueba podríamos hacer que se ejecutase en el main si lo desemaos 
+#Por otro lado describimos los pasos a seguir por el programa para poder ordenar, topológicamente, nuestra lista de n tareas
+Mientras Lista_1 no esté vacía:
+    Añadir los elementos sin precedente a Lista_2
+    Eliminar de Lista_1 los eeemntos añadidos a Lista_2
+    Eliminar de Lista_3 los elementos ((x,y)) cuya x se encuentre en Lista_2 
+    Añadir los elementos de lista_2 a Lista_4 
+
+    Si 
+    existe (x,y) y (x1,y1) tales que x==y1 y y==x1:
+    entonces
+    ERROR: Se produce un ciclo que nos impide realizar la ordenación 
+
+    si no 
+        devolver Lista_4 
+#Como resultado obtenemos una lista que nos ofrece 1 de las posibles soluciones para ordenar nuestra lista de tareas.
 
 
 
